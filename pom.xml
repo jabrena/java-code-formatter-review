@@ -113,6 +113,7 @@
     <modules>
         <module>spotless</module>
         <module>spring-javaformat</module>
+        <module>prettier-java</module>
     </modules>
 
 </project>
