@@ -1,8 +1,8 @@
 # Spring Java format
 
 ```
-mvn clean verify -pl spring-javaformat
-mvn spring-javaformat:apply -pl spring-javaformat
+mvn spring-javaformat:apply -pl spring-java-format
+mvn clean verify -pl spring-java-format
 ```
 
 ## References
