@@ -1,8 +1,5 @@
 package com.jab.ms;
 
-import static org.assertj.core.api.Assertions.assertThat;
-import static org.assertj.core.api.Assertions.within;
-
 import java.math.BigDecimal;
 import java.math.MathContext;
 import java.math.RoundingMode;
@@ -24,8 +21,6 @@ public class Problem20220101 {
 
         var result = surface.divide(volume, roundingMode);
 
-        assertThat(result)
-            .usingComparator(BigDecimal::compareTo)
-            .isCloseTo(BigDecimal.valueOf(1), within(BigDecimal.valueOf(0.00001)));
+        System.out.println(result);
     }
 }

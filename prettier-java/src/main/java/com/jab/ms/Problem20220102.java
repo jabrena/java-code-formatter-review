@@ -1,7 +1,5 @@
 package com.jab.ms;
 
-import static org.assertj.core.api.Assertions.assertThat;
-
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.util.List;
@@ -41,8 +39,6 @@ public class Problem20220102 {
             .map(extractDivisors)
             .peek(System.out::println)
             .map(sumReciprocals)
-            .forEach(li -> {
-                assertThat(li).isEqualTo(BigDecimal.valueOf(2));
-            });
+            .forEach(System.out::println);
     }
 }
