@@ -111,8 +111,8 @@
     </build>
 
     <modules>
-        <module>spotless</module>
-        <module>spring-javaformat</module>
+        <module>google-java-format</module>
+        <module>spring-java-format</module>
         <module>prettier-java</module>
     </modules>
 
