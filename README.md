@@ -4,12 +4,12 @@
 
 Review of different maven plugins to format java source code
 
-```
-export MAVEN_OPTS=" --add-exports jdk.compiler/com.sun.tools.javac.api=ALL-UNNAMED \
---add-exports jdk.compiler/com.sun.tools.javac.file=ALL-UNNAMED \
---add-exports jdk.compiler/com.sun.tools.javac.parser=ALL-UNNAMED \
---add-exports jdk.compiler/com.sun.tools.javac.tree=ALL-UNNAMED \
---add-exports jdk.compiler/com.sun.tools.javac.util=ALL-UNNAMED "
+## Alternatives
 
+Move the process to git:
+
+- https://medium.com/@harshitbangar/automatic-code-formatting-with-git-66c3c5c26798
+
+```
 mvn clean verify
 ```
