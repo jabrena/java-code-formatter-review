@@ -12,4 +12,5 @@ Move the process to git:
 
 ```
 mvn clean verify
+mvn clean site site:stage
 ```
